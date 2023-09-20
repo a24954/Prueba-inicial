@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+.DivIconos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 1px rgb(190, 187, 187) solid;
+}
+
+.Logo1{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.Logo2{
+    width: 40px;
+    height: 40px;
+    border-right: 1px rgb(199, 196, 196) solid;
+    border-left: 1px rgb(199, 196, 196) solid;
+}
+
+.Logo3 {
+    width: 33px;
+    height: 32px;
+}
+.DivTexto{
+    text-align: center;
+}
+
+/*body*/
+.DivFiltros{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px rgb(199, 196, 196) solid;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 13px;
+}
+
+.ImagenFlecha {
+    width: 14px;
+    height: 14px;
+    margin-top: 4.5%;
+    margin-right: 3%;
+}
+
+.DivFotT{
+    display: inline-block;
+    margin-top: 3%;
+    width: 48%;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.imagenes{
+    width: 193px;
+    height: 150px;
+}
+
+/*footer*/
+.FooterDiv {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-left: 10px;
+    margin-right: 5%;
+    margin-top: 5px;
+    border-top: 1px rgb(199, 196, 196) solid;
+    border-bottom: 1px rgb(199, 196, 196) solid;
+    padding: 15px;
+
+}
